@@ -1,11 +1,6 @@
-# LAMP Stacks Made Easy with Vagrant & Puppet
+# 64bit LAMP Stack with Laravel using Vagrant & Puppet
 
 Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the worlds next great application should be easy. Use this all inclusive code to quickly kickstart your next application environement.
-
-## Shout outs!
-Credit must be given where credit is due. Most of this work was made possible by:
-* [PerishableDave/puppet-lamp-stack](https://github.com/PerishableDave/puppet-lamp-stack).
-* [jas0nkim/my-vagrant-puppet-lamp](https://github.com/jas0nkim/my-vagrant-puppet-lamp).
 
 ## Prerequisites
 * [Vagrant](http://www.vagrantup.com/)
@@ -13,9 +8,9 @@ Credit must be given where credit is due. Most of this work was made possible by
 
 ## Instructions
 0. Insure Vagrant and Virutal Box are installed.
-1. Install precise32 Vagrant box. (If not installed already)
+1. Install precise64 Vagrant box. (If not installed already)
 
-        $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
+        $ vagrant box add precise64 http://files.vagrantup.com/precise32.box
 
 2. Clone this repository.
 3. Create directory "webroot" in the root directory of the clone. This will act as your root web folder.
@@ -40,3 +35,5 @@ You're all set up. The webserver will now be accessible from http://localhost:88
 * curl
 * vim
 * htop
+* phpmyadmin
+* laravel 4
