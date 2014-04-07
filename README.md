@@ -10,7 +10,7 @@ Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the
 0. Insure Vagrant and Virutal Box are installed.
 1. Install precise64 Vagrant box. (If not installed already)
 
-        $ vagrant box add precise64 http://files.vagrantup.com/precise32.box
+        $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 
 2. Clone this repository.
 3. Create directory "webroot" in the root directory of the clone. This will act as your root web folder.
