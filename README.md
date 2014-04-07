@@ -20,7 +20,7 @@ Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the
 
 You're all set up. The webserver will now be accessible from http://localhost:8888
 
-## System Package include
+## System Packages include
 
 * apache2 - rewrite mode enabled, having virtual host with config - refer manifest/vagrant_webroot.sample
 * php5
