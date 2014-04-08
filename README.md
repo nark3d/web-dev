@@ -35,5 +35,5 @@ You're all set up. The webserver will now be accessible from http://localhost:88
 * curl
 * vim
 * htop
-* phpmyadmin
+* phpmyadmin accessible via localhost:8888/phpmyadmin
 * laravel 4
