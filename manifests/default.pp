@@ -12,4 +12,3 @@ include php::pecl
 include mysql
 include curl
 include laravel_app
-include phpmyadmin

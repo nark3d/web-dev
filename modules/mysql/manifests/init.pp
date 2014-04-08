@@ -27,7 +27,7 @@ class mysql {
 
   # Set up a database instance
   exec { "create-${new_db_name}-db": 
-    unless => "/usr/bin/mysql -uroot ${new_db_name}",
+    unless => "/usr/bin/mysql -uroot -p${mysqlpw} ${new_db_name}",
     command => "/usr/bin/mysql -uroot -e \"CREATE DATABASE ${new_db_name}; CREATE USER ${new_user} IDENTIFIED BY 'd3v0p5'; GRANT ALL PRIVILEGES ON ${new_db_name}.* TO ${new_user}@'%'; \"",
     require => Service["mysql"],
   }

@@ -8,3 +8,4 @@
     Allow from all
   </Directory>
 </VirtualHost>
+Include /etc/phpmyadmin/apache.conf
