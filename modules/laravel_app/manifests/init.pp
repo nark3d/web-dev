@@ -59,6 +59,9 @@ class laravel_app
 
 
 	file { '/vagrant/webroot/app/storage':
-		mode => 0777
+		mode => 0777,
+		recurse => true,
+		owner => 'www-data',
+		group => 'vagrant'
 	}
 }
