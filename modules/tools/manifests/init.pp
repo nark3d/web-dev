@@ -5,7 +5,8 @@ class tools {
     "curl",
     "vim",
     "htop",
-    "phpmyadmin"
+    "phpmyadmin",
+    "zip"
   ]
 
   # install packages
